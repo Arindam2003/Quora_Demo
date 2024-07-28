@@ -1,0 +1,50 @@
+*{
+    font-family: Courier;
+    /* padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: rgb(163, 3, 3);
+    /* font-weight: bold; */
+}
+#sign {
+    background-color: rgb(205, 4, 4);
+    color: white;
+}
+ul a{
+    color: rgb(242, 114, 135);
+}
+p a {
+    background-color: yellow;
+}
+h3{
+    color: rgb(186, 10, 10);
+}
+#upvote{
+    background-color: green;
+    color: white;
+}
+#ans{
+    /* color: white; */
+    background-color: rgb(45, 45, 220);
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+#upvote:hover{
+    background-color: red;
+    color: white;
+}
+#ans:hover{
+    background-color: rgb(34, 232, 232);
+    color: white;
+}
+button:active{
+    background-color: hotpink;
+}
